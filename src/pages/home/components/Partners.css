@@ -1,0 +1,13 @@
+.partners-slide-img{
+    width: 80%;
+}
+
+@media screen and (max-width: 900px) {
+    .sliderItem-partners{
+        height: 100%;
+    }
+
+    .partners-slide-img{
+        width: 100%;
+    }
+}

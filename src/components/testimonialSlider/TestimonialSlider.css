@@ -1,0 +1,36 @@
+.t-sliderItem{
+    display: flex;
+
+}
+
+.t-review{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 5%;
+    padding: 0px 10%;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.t-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.t-details img{
+    width: 60px;
+    border-radius: 50%;
+}
+
+.t-name{
+    font-family: Ubuntu-Bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.t-role{
+    font-size: 13px;
+}
+

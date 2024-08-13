@@ -1,0 +1,201 @@
+.h-sec1{
+    padding-left: 5%;
+}
+.h-sec1-heading{
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Ubuntu-Bold;
+    font-size: 22px;
+    color: #222222;
+}
+
+.h-sec1-heading span{
+    color: red;
+}
+
+.h-sec2{
+    background-image: url('../../assets/imgs/about-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-color: #fafbfc;
+}
+
+
+/* sec3 */
+
+.h-sec3-card {
+    width: 100%;
+    padding: 15px;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 25px;
+    box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.h-sec3-card-big{
+    min-height: 550px;
+}
+
+.h-sec3-card:hover {
+    box-shadow: 15px 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+
+.h-sec3-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.h-sec3-card:hover img {
+    width: 90px;
+    transition: 0.3s ease;
+}
+
+.h-sec3-card-heading{
+    font-family: Ubuntu-Bold;
+    font-size: 20px;
+    color: #222222;
+}
+
+.h-sec3-card-text{
+    padding: 0px 20px;
+    line-height: 22px;
+    text-align: justify;
+}
+
+/* section 4  */
+.h-sec4{
+    background-image: url('../../assets/imgs/section-bg-2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 100%;
+    background-color: #fafbfc; 
+    color: white;
+    padding-left: 10%;
+}
+
+.h-sec4-list-item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.h-sec4-list-item div{
+    background-color: white;
+    width: 13px;
+    height: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* section 5  */
+
+.h-sec5-card{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    min-height: 160px;
+    border-radius: 20px;
+}
+
+.h-sec5-card-heading{
+    font-family: Ubuntu-Bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.h-sec5-card-text{
+    line-height: 22px;
+    text-align: justify;
+}
+
+.h-sec5-card:hover{
+    background-color: red;
+    color: white;
+    transition: 0.3s ease;
+}
+
+/* home section 6  */
+
+.h-sec6{
+    background-image: url('../../assets/imgs/testimonials.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 100%;
+    background-color: #fafbfc; 
+    color: white;
+    padding-left: 10%;
+}
+
+/* section 7  */
+
+.h-sec7-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.h-sec7-icon{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.h-sec7-card-heading{
+    font-family: Ubuntu-Bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.h-sec7-card-text{
+    line-height: 22px;
+    font-family: Ubuntu-Regular;
+    /* text-align: justify; */
+}
+
+.h-sec7-card:hover{
+    box-shadow: 15px 20px 35px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+}
+
+@media screen and (max-width: 900px) {
+    .h-sec1-heading{
+        font-size: 18px;
+    }
+
+    .h-sec3-card, 
+    .h-sec3-card-big{
+        min-height: 100px;
+        padding-bottom: 20px;
+    }
+
+    .testimonial-padding{
+        padding: 0px 10px;
+    }
+}

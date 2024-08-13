@@ -1,0 +1,57 @@
+/* fonts  */
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url('/font/Poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url('/font/Poppins/Poppins-Light.ttf');
+}
+
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('/font/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url('/font/Poppins/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url('/font/Poppins/Poppins-Bold.ttf');
+}
+
+/* Ubuntu */
+@font-face {
+  font-family: Ubuntu;
+  src: url('/font/Ubuntu/Ubuntu-Light.ttf');
+}
+
+@font-face {
+  font-family: Ubuntu-Regular;
+  src: url('/font/Ubuntu/Ubuntu-Regular.ttf');
+}
+
+@font-face {
+  font-family: Ubuntu-Medium;
+  src: url('/font/Ubuntu/Ubuntu-Medium.ttf');
+}
+
+@font-face {
+  font-family: Ubuntu-Bold;
+  src: url('/font/Ubuntu/Ubuntu-Bold.ttf');
+}
+
+@font-face {
+  font-family: Ubuntu-BoldItalic;
+  src: url('/font/Ubuntu/Ubuntu-BoldItalic.ttf');
+}
+
+@font-face {
+  font-family: Ubuntu-Italic;
+  src: url('/font/Ubuntu/Ubuntu-Italic.ttf');
+}

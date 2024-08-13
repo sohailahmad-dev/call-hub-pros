@@ -1,0 +1,99 @@
+.about-hero {
+    background-image: url('../../assets/imgs/aboutBg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-color: #fafbfc;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-bg-section{
+    background-image: url('../../assets/imgs/testimonials.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-color: #fafbfc;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-heading1 {
+    font-family: Ubuntu-BoldItalic;
+    font-size: 50px;
+    color: #222222;
+    padding-top: 10%;
+}
+
+.about-heading1 span {
+    font-family: Ubuntu-BoldItalic;
+    font-size: 50px;
+    color: red;
+}
+
+.about-text1 {
+    font-size: 30px;
+    line-height: 45px;
+    font-family: Ubuntu-Italic;
+    text-align: justify;
+}
+
+.h-sec2-pb{
+    padding-bottom: 300px;
+}
+
+/* section 3  */
+
+.about-sec3-card {
+    width: 100%;
+    padding: 15px;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 25px;
+    box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-sec3-icon {
+    background-color: red;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    .about-heading1{
+        font-size: 35px;
+    }
+
+    .about-heading1 span{
+        font-size: 35px;
+    }
+
+    .about-text1 {
+        font-size: 20px;
+        line-height: 28px;
+        font-family: Ubuntu-Italic;
+        text-align: justify;
+    }
+
+    .h-sec2-pb{
+        padding-bottom: 30px;
+    }
+}

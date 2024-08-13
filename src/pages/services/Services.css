@@ -1,0 +1,12 @@
+.flex-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.h-sec4-list-item1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
